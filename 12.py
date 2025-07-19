@@ -5,12 +5,22 @@ salario_bruto = valor_hora * qt_hora
 print('salario bruto:', valor_hora * qt_hora,':R$', salario_bruto)
 
 if salario_bruto <= 900:
+    irtexto = 'isento'
     ir = 0
     print('salario bruto até 900(inclusive)- isento')
 
 elif salario_bruto> 900 and salario_bruto <= 1500:
     #ir = salario bruto *0,05
+    irtexto = '5%'
     ir = salario_bruto *5/100
 elif salario_bruto >1500 and salario_bruto <= 2500:
     #ir = salario_bruto * 0.1
+    irtexto = '10%'
     ir =salario_bruto * 10/100
+
+
+#inss
+inss = salario_bruto * 0.1
+print(f
+
+
